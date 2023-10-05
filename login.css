@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    font-size: px;
+    padding: 2em;
+    margin-top: 2em;
+    background-color: lightgrey;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#login-form>label{
+    font-weight: bold;
+}
+
+form>button{
+    background-color: darkblue;
+    color: white;
+    padding: 0.5em;
+    width: 33%;
+    
+}
+
+form>button:hover{
+    color:darkblue;
+    background-color: white;
+    transition: 0.33s;
+}
+
+a ~ p{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+}
+
+#login-form input{
+    margin-top: 0.33em;
+    margin-bottom: 0.33em;
+    width: 66%;
+}
+
+@media (max-width: 600px) {
+
+
+*{
+   font-weight: normal;
+}
+#login-form {
+    background-color: lightgrey;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+}
+
+    
