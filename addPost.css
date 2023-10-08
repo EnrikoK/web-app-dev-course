@@ -2,7 +2,32 @@
 
 * {
     font-family: monospace;
+    margin:0;
 }
+
+nav {
+    height: 5em;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    }
+  
+nav li {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    list-style-type: none;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+
+nav li:hover {
+    background-color: darkcyan;
+        color: #a49cba;
+        text-decoration: underline;
+    }
 
 .flexbox {
     display:grid;
