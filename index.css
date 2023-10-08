@@ -20,6 +20,7 @@ aside{
     margin: 0.25em;
     border-radius: 10px;
 }
+
 .post {
     background-color: lightgrey;
     border-radius: 10px;
@@ -52,15 +53,18 @@ nav {
     }
   
 nav li {
+    background-color: lightgray;
     display: inline-block;
-    padding: 0;
-    margin: 0;
+    padding: 0.5em;
+    margin: 0.5em;
     list-style-type: none;
     justify-content: space-evenly;
+    border-radius: 5px;
 }
 
 
-nav li a:hover {
+nav li:hover {
+    background-color: darkcyan;
         color: #a49cba;
         text-decoration: underline;
     }
