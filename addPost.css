@@ -1,0 +1,104 @@
+
+
+* {
+    font-family: monospace;
+    margin:0;
+}
+
+nav {
+    height: 5em;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    }
+  
+nav li {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    list-style-type: none;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+
+nav li:hover {
+    background-color: darkcyan;
+        color: #a49cba;
+        text-decoration: underline;
+    }
+
+.flexbox {
+    display:grid;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.flexbox div {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox > div {
+    margin: 15px;
+}
+
+.postcreation + div {
+    margin-top: 20px;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.postbody > div{
+    margin-right: 24px;
+}
+
+.postbody + div{
+    margin-top: 15px;
+}
+
+textarea {
+    resize: none;
+    color: lightgray;
+    border: 0;
+
+}
+
+.fileselect{
+    display: flex;
+    flex-direction: row;
+}
+
+.fileselect > div{
+    margin-right: 10px;
+}
+
+
+.fileselect > button{
+    color: white;
+    background-color: #808B96;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.create {
+    align-items: center;
+}
+
+
+.create > a{
+    text-decoration: none;
+    color: white;
+    background-color: #184777;
+    padding: 5px 10px;
+    text-align: center;
+}
