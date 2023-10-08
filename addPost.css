@@ -29,60 +29,57 @@ nav li:hover {
         text-decoration: underline;
     }
 
-.flexbox {
-    display:grid;
-    background-color: lightgray;
-    border-radius: 10px;
-    width: fit-content;
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     justify-content: center;
 }
 
-.flexbox div {
+
+
+.postcreation{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 40%;
+    height: 30vh;
+    padding: 1em;
 }
 
-.flexbox > div {
-    margin: 15px;
-}
-
-.postcreation + div {
-    margin-top: 20px;
-}
 
 #row {
     display: flex;
     flex-direction: row;
     text-align: left;
+    
 }
 
 .postbody > div{
-    margin-right: 24px;
+    margin-right: 0.75em;
+    
 }
 
-.postbody + div{
-    margin-top: 15px;
-}
+
 
 textarea {
     resize: none;
-    color: lightgray;
+    width: 80%;
+    height: 15vh;
+    float: right;
     border: 0;
 
 }
 
-.fileselect{
-    display: flex;
-    flex-direction: row;
+
+label + input{
+    margin: 1em;
 }
-
-.fileselect > div{
-    margin-right: 10px;
-}
-
-
 .fileselect > button{
     color: white;
     background-color: #808B96;
@@ -90,15 +87,18 @@ textarea {
     padding: 5px 10px;
 }
 
-.create {
-    align-items: center;
-}
 
 
-.create > a{
-    text-decoration: none;
-    color: white;
-    background-color: #184777;
-    padding: 5px 10px;
-    text-align: center;
+@media (max-width: 599px) {
+
+    .content{
+        width: 100vw;
+    }
+    .content form{
+        width: 100vw;
+        height: 50vh;
+    }
+    form > div >textarea{
+        height: 30vh;
+    }
 }
