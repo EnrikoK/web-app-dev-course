@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#content{
+    display: flex;
+    
+}
+
+.posts-container{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    width: 25%;
+    background-color: darkcyan;
+    margin: 0.25em;
+    border-radius: 10px;
+}
+
+.post {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.post-image{
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: scale-down;
+}
+
+.post-header{
+    display:flex;
+    justify-content: space-between;
+}
+.post-image-content{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+/* nav bar css starts here*/
+nav {
+    height: 5em;
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    }
+  
+nav li {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+    list-style-type: none;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+
+nav li:hover {
+    background-color: darkcyan;
+        color: #a49cba;
+        text-decoration: underline;
+    }
+
+ /*-----------------------------------*/   
+
+footer{
+    height: 5em;
+    width: 100%;
+    background-color: lightgray;
+    margin: 0.25em;
+    border-radius: 10px;
+}
