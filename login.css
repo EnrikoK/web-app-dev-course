@@ -6,6 +6,7 @@
 }
 
 body{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,15 +32,16 @@ body{
 }
 
 form>button{
-    background-color: darkblue;
+    background-color: darkcyan;
     color: white;
     padding: 0.5em;
     width: 33%;
+    border-radius: 5px;
     
 }
 
 form>button:hover{
-    color:darkblue;
+    color:darkcyan;
     background-color: white;
     transition: 0.33s;
 }
@@ -66,7 +68,11 @@ a ~ p{
     width: 100%;
     border-radius: 10px;
 }
-
+.header{
+    margin: 0;
+    border-radius: 0px;
+    width: 100%;
+}
 
 }
 
@@ -75,7 +81,6 @@ nav {
     height: 5em;
     width: 100%;
     background-color: lightgrey;
-    margin: 0.25em;
     border-radius: 10px;
     }
   
@@ -95,3 +100,6 @@ nav li:hover {
         color: #a49cba;
         text-decoration: underline;
     }
+.header{
+    width: 100%;
+}
