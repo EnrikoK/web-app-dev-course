@@ -1,0 +1,102 @@
+{"posts":[
+    {
+        "id": 1,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "photo1.jpg"
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 2,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": null
+        },
+        "username": "madis",
+        "profile_picture": "link"
+    },
+    {
+        "id": 3,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "link"
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 4,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "link"
+        },
+        "username": "pille",
+        "profile_picture": "link"
+    },
+    {
+        "id": 5,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": null
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 6,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "link"
+        },
+        "username": "Hanskan",
+        "profile_picture": "link"
+    },
+    {
+        "id": 7,
+        "date": "11.11.2023",
+        "content": {
+            "text": null,
+            "image": "link"
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 8,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "kass2.png"
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 9,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": null
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    },
+    {
+        "id": 10,
+        "date": "11.11.2023",
+        "content": {
+            "text": "hell",
+            "image": "link"
+        },
+        "username": "cat",
+        "profile_picture": "link"
+    }
+]}
