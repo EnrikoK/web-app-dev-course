@@ -9,7 +9,7 @@
     
 }
 
-.posts-container{
+#posts-container{
     display: flex;
     flex-direction: column;
 }
