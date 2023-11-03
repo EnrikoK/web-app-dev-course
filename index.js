@@ -110,4 +110,13 @@ window.onload =  async function(){fetch("http://localhost:3000/posts")
     .then(json => {
         load(json)
     })};
+
+function toggleDropdown(){
+    let dropdown = document.getElementById("dropdownContent")
+    if(dropdown.style.visibility == "hidden"){
+        dropdown.style.visibility = "visible";
+    }else{
+        dropdown.style.visibility = "hidden";
+    }
+}
     

@@ -46,13 +46,55 @@ aside{
 }
 
 /* nav bar css starts here*/
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: lightgrey;
+    align-items: center;
+
+}
+.profile {
+    position: relative;
+    display: inline-block;
+    display: flex;
+
+}
+
+#profile-picture {
+    width: 4em;
+    height: 4em;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+#dropdownContent{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    background-color: lightgrey;
+    padding: 2em;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+}
+
+#dropdownContent>a{
+    padding: 0.25em
+}
+
 nav {
     height: 5em;
-    width: 100%;
-    background-color: lightgrey;
+    width: 80%;
+
     border-radius: 10px;
     }
-  
+
 nav li {
     background-color: lightgray;
     display: inline-block;
@@ -69,8 +111,6 @@ nav li:hover {
         color: #a49cba;
         text-decoration: underline;
     }
-
- /*-----------------------------------*/   
 
 footer{
     height: 5em;
