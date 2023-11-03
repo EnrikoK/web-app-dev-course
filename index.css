@@ -13,6 +13,8 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+
+
 }
 
 aside{
@@ -20,6 +22,7 @@ aside{
     background-color: darkcyan;
     margin: 0.25em;
     border-radius: 10px;
+    min-height: 90vh;
 }
 
 .post {
@@ -58,7 +61,7 @@ aside{
     position: relative;
     display: inline-block;
     display: flex;
-
+    
 }
 
 #profile-picture {
@@ -76,7 +79,7 @@ aside{
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    z-index: 999;
+    z-index: 99;
     position: absolute;
     background-color: lightgrey;
     padding: 2em;
@@ -91,10 +94,10 @@ aside{
 nav {
     height: 5em;
     width: 80%;
-
+    
     border-radius: 10px;
     }
-
+  
 nav li {
     background-color: lightgray;
     display: inline-block;
@@ -112,8 +115,10 @@ nav li:hover {
         text-decoration: underline;
     }
 
+ /*-----------------------------------*/   
+
 footer{
-    height: 5em;
+    height: 10vh;
     width: 100%;
     background-color: lightgray;
     margin: 0.25em;
@@ -125,5 +130,14 @@ footer{
 
 aside{
     visibility: hidden;
+}
+#dropdownContent{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    z-index: 999;
+    overflow: auto;
 }
 }
