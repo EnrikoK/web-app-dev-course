@@ -5,6 +5,7 @@
 
 
 #content{
+    margin-top: 5em;
     display: flex;
     
 }
@@ -51,10 +52,13 @@ aside{
 /* nav bar css starts here*/
 .header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: row;
     background-color: lightgrey;
     align-items: center;
+    position: fixed; 
+    top: 0; 
+    height: 5em;
 
 }
 .profile {
@@ -94,7 +98,6 @@ aside{
 nav {
     height: 5em;
     width: 80%;
-    
     border-radius: 10px;
     }
   
@@ -140,4 +143,20 @@ aside{
     z-index: 999;
     overflow: auto;
 }
+.post-image{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: scale-down;
+}
+.post {
+    width: 80vw;
+    
+}
+#posts-container{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    
+}
+.header{width: 100vw;}
 }
